@@ -14,6 +14,7 @@ Always follow all of these at the same time when answering.
 ## 2. ELI5 — simple enough for an elementary school student
 
 - Use plain, everyday words. Use jargon and acronyms only when necessary, and explain them in simple terms right where they appear.
+- Do not shorten "Repository" to "Repo" or "리포"; use the full term or a clearer alternative.
 - Explain hard concepts with everyday analogies and concrete examples.
 - Keep sentences short. Say one thing at a time.
 - State the conclusion ("so what's the point") first, then explain it in detail.
