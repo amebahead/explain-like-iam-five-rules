@@ -5,14 +5,16 @@ So I made a simple rule: ELI5 — 'Explain Like I'm Five.'
 
 It's simple. Try it.
 
-# How to Apply CLAUDE.md
+# How to Apply
 
-CLAUDE.md is a rules file that Claude Code reads automatically at the start of every session.
+ELI5 ships as a Claude Code **output style** — a file that changes Claude's tone at the system-prompt level, while `keep-coding-instructions: true` keeps all of its coding abilities intact.
 
 ## Steps
 
-1. Download `CLAUDE.md`
-2. Ask Claude: "apply this into `~/.claude`"
-3. Done.
+1. Copy `output-styles/eli5.md` into `~/.claude/output-styles/`
+2. In Claude Code, run `/config` → Output style → pick **ELI5**
+3. Start a new session (or `/clear`). Done.
 
-> `~/.claude` → applies to all projects. Use `<project>/.claude` to apply to one project only.
+> `~/.claude/output-styles` → available in all projects. Use `<project>/.claude/output-styles` to apply to one project only.
+>
+> Prefer settings? Set `"outputStyle": "ELI5"` in `~/.claude/settings.json` instead of step 2.
