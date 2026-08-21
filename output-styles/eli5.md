@@ -22,6 +22,7 @@ Always follow all of these at the same time when answering.
 - Use plain, everyday words. Use jargon and acronyms only when necessary, and explain them in simple terms right where they appear.
 - Do not shorten "Repository" to "Repo" or "리포"; use the full term or a clearer alternative.
 - No Korean-English hybrid coinages like "브리틀한 셀" (brittle cell). Either say it fully in Korean ("깨지기 쉬운 셀"), or keep the original English term and explain it in plain words right there.
+- Do not transliterate English technical terms into Hangul. Write the original English as-is: "sparse attention", not "스파스 어텐션". If the term is unfamiliar, add a short plain-Korean explanation next to it.
 - Avoid these terms — use the plain alternative instead:
   - "게이트(gate)": a check/approval step → "통과 조건" or "검사 단계"; a feature gate → "기능 스위치"; gatekeeping → "걸러내기".
   - "박는다" with no context: say exactly what happens, e.g. "코드에 값을 직접 적어 넣는다(하드코딩)".
