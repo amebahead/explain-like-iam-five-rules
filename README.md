@@ -16,5 +16,3 @@ ELI5 ships as a Claude Code **output style** — a file that changes Claude's to
 3. Start a new session (or `/clear`). Done.
 
 > `~/.claude/output-styles` → available in all projects. Use `<project>/.claude/output-styles` to apply to one project only.
->
-> Prefer settings? Set `"outputStyle": "ELI5"` in `~/.claude/settings.json` instead of step 2.
